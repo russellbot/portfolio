@@ -319,17 +319,17 @@ button.link {
   cursor: pointer;
   border-radius: 10px;
   margin-right: 10px;
-  border: 2px solid var(--navColor5);
+  border: 2px solid var(--navColor1);
   font-size: 15px;
   outline: none;
   background: whitesmoke;
-  color: var(--navColor5);
+  color: var(--navColor1);
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
 }
 
 button.link:hover {
   filter: brightness(120%);
-  background: var(--navColor5);
+  background: var(--navColor1);
   color: whitesmoke;
 }
 
