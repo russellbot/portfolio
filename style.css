@@ -391,15 +391,15 @@ h6 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-left: 40%;
 }
 
 .row1 {
-  width: 35%;
-  margin-left: 20%;
+  width: 50%;
 }
 
 .row2 {
-  width: 35%;
+  width: 50%;
 }
 
 .skills-rows {
@@ -446,8 +446,8 @@ h6 {
     width: 300px;
   }
 
-  .row1 {
-    margin-left: 5%;
+  .skill {
+    padding-left: 10%;
   }
 
   .social-icons {
