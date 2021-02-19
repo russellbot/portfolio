@@ -3,10 +3,10 @@
 :root {
   --primaryColor: #fff;
   --navColor1: #21292c;
-  --navColor2: #aaaa39;
-  --navColor3: #aa7439;
-  --navColor4: #27586b;
-  --navColor5: #582a72;
+  --navColor2: #582a72;
+  --navColor3: #27586b;
+  --navColor4: #aa7439;
+  --navColor5: #aaaa39;
 }
 
 html {
