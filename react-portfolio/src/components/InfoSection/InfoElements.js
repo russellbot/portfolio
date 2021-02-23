@@ -49,7 +49,7 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 15px;
 `;
 
 export const TopLine = styled.p`
@@ -90,7 +90,13 @@ export const Subtitle = styled.p`
 
 export const BtnWrap = styled.div`
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+
+  @media screen and (max-width: 940px) {
+    flex-wrap: wrap;
+    /* width: 250px; */
+    justify-content: center;
+  }
 `;
 
 export const ImgWrap = styled.div`

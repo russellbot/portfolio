@@ -1,5 +1,6 @@
 import React from "react";
-import { Button } from "../ButtonElement";
+import { FaGithub } from "react-icons/fa";
+import { Button, ButtonA } from "../ButtonElement";
 import {
   InfoContainer,
   InfoWrapper,
@@ -25,12 +26,12 @@ const InfoSection = ({
   darkText,
   description1,
   description2,
-  buttonLabel1,
+  buttons,
   img,
   alt,
   primary,
   dark,
-  dark2
+  dark2,
 }) => {
   return (
     <>
@@ -44,16 +45,22 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description1}</Subtitle>
                 <Subtitle darkText={darkText}>{description2}</Subtitle>
                 <BtnWrap>
-                  <Button to="home"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                  primary={primary ? 1 : 0}
-                  dark={dark ? 1 : 0}
-                  dark2={dark2 ? 1 : 0}
-                  >{buttonLabel1}</Button>
+                  {buttons.map((btn) => (
+                    <ButtonA
+                      href={btn.link}
+                      target="_blank"
+                      smooth={true}
+                      duration={500}
+                      spy={true}
+                      exact="true"
+                      offset={-80}
+                      primary={primary ? 1 : 0}
+                      dark={dark ? 1 : 0}
+                      dark2={dark2 ? 1 : 0}
+                    >
+                      {(btn.icon) ? <FaGithub /> : null}  {btn.name}
+                    </ButtonA>
+                  ))}
                 </BtnWrap>
               </TextWrapper>
             </Column1>

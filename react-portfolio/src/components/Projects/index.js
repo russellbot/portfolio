@@ -27,7 +27,7 @@ const Projects = () => {
                 <ProjectsCard to="/smartface">
                     <ProjectsIcon src={Icon2} />
                     <ProjectsH2>Smart-Face</ProjectsH2>
-                    <ProjectsP>full stack App</ProjectsP>
+                    <ProjectsP>Full Stack App</ProjectsP>
                 </ProjectsCard>
                 <ProjectsCard to="/nasapix">
                     <ProjectsIcon src={Icon3} />
