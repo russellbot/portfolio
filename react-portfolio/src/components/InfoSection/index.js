@@ -25,7 +25,7 @@ const InfoSection = ({
   darkText,
   description1,
   description2,
-  buttonLabel,
+  buttonLabel1,
   img,
   alt,
   primary,
@@ -53,7 +53,7 @@ const InfoSection = ({
                   primary={primary ? 1 : 0}
                   dark={dark ? 1 : 0}
                   dark2={dark2 ? 1 : 0}
-                  >{buttonLabel}</Button>
+                  >{buttonLabel1}</Button>
                 </BtnWrap>
               </TextWrapper>
             </Column1>

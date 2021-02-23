@@ -72,7 +72,21 @@ export const NavItem = styled.li`
   height: 80px;
 `;
 
-export const NavLinks = styled(LinkScroll)`
+export const NavLinkScroll = styled(LinkScroll)`
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+
+  &.active {
+    border-bottom: 3px solid #01bf71;
+  }
+`;
+
+export const NavLinkRouter = styled(LinkRouter)`
   color: #fff;
   display: flex;
   align-items: center;
@@ -113,4 +127,9 @@ export const NavBtnLink = styled(LinkRouter)`
     background: #fff;
     color: #010606;
   }
+`;
+
+export const Scroller = styled(LinkScroll)`
+  display: flex;
+  align-items: center;
 `;

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link} from 'react-router-dom';
 
 export const ProjectsContainer = styled.div`
   height: 800px;
@@ -36,8 +37,9 @@ export const ProjectsWrapper = styled.div`
   }
 `;
 
-export const ProjectsCard = styled.div`
+export const ProjectsCard = styled(Link)`
   background: #fff;
+  color: #010606;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -47,9 +49,10 @@ export const ProjectsCard = styled.div`
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-ease-out;
+  text-decoration: none;
 
   &:hover {
-      transform: scale()(1.02);
+      transform: scale(1.02);
       transition: all 0.2s ease-in-out;
       cursor: pointer;
   }
@@ -59,6 +62,8 @@ export const ProjectsIcon = styled.img`
   height: 160px;
   width: auto;
   margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 12px 1px rgba(0, 0, 0, 0.6);
 `;
 
 export const ProjectsH1 = styled.h1`
@@ -79,4 +84,8 @@ export const ProjectsH2 = styled.h2`
 export const ProjectsP = styled.p`
   font-size: 1rem;
   text-align: center;
+`;
+
+export const ProjectsBtnWrap = styled.div`
+  margin-top: 24px;
 `;

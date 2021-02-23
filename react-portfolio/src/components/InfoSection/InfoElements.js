@@ -54,7 +54,7 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
   color: #01bf71;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
@@ -77,9 +77,15 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+
+  @media screen and (max-width: 940px) {
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 20px;
+  }
 `;
 
 export const BtnWrap = styled.div`
@@ -90,6 +96,9 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
+  max-height: 500px;
+  width: 100%;
+  overflow: hidden;
 `;
 
 export const Img = styled.img`
