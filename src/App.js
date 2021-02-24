@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
       <Switch>
             <Route path="/" component={Home} exact />
