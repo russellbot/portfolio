@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1712ad65.chunk.css",
+    "main.js": "/portfolio/static/js/main.9ae35f24.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9ae35f24.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.6208650d.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.6208650d.js.map",
+    "static/js/2.cb6c2058.chunk.js": "/portfolio/static/js/2.cb6c2058.chunk.js",
+    "static/js/2.cb6c2058.chunk.js.map": "/portfolio/static/js/2.cb6c2058.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.1712ad65.chunk.css.map": "/portfolio/static/css/main.1712ad65.chunk.css.map",
+    "static/js/2.cb6c2058.chunk.js.LICENSE.txt": "/portfolio/static/js/2.cb6c2058.chunk.js.LICENSE.txt",
+    "static/media/ezshop-home.b3e37f23.png": "/portfolio/static/media/ezshop-home.b3e37f23.png",
+    "static/media/ezshop.png": "/portfolio/static/media/ezshop.2609a119.png",
+    "static/media/headshot4.jpg": "/portfolio/static/media/headshot4.2604fccc.jpg",
+    "static/media/nasapix.PNG": "/portfolio/static/media/nasapix.408d6118.PNG",
+    "static/media/paintclone.PNG": "/portfolio/static/media/paintclone.df63c9b5.PNG",
+    "static/media/russell-hart-resume.pdf": "/portfolio/static/media/russell-hart-resume.789a09b4.pdf",
+    "static/media/smartface.PNG": "/portfolio/static/media/smartface.774a8b18.PNG",
+    "static/media/starwars.PNG": "/portfolio/static/media/starwars.92ac7855.PNG",
+    "static/media/video.5e99e701.mp4": "/portfolio/static/media/video.5e99e701.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6208650d.js",
+    "static/js/2.cb6c2058.chunk.js",
+    "static/css/main.1712ad65.chunk.css",
+    "static/js/main.9ae35f24.chunk.js"
+  ]
+}
