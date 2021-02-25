@@ -53,7 +53,7 @@ export const smartFace = {
     description2: 'The front end of this web app was built using the React framework. The server was built using Node and Express. Profiles and login information are stored in a PostgreSQL database and may be updated and changed. JSON Web Tokens and Redis are used for session management. The back end uses the Docker platform for easier development.',
     buttons: [
         { name: 'See Project', link: 'https://smart-face-react.herokuapp.com/'},
-        { name: 'Frontend', link: 'https://github.com/russellbot/smart-face', icon: true},
+        { name: 'Frontend', link: 'https://russellbot.github.io/smart-face/', icon: true},
         { name: 'Backend', link: 'https://github.com/russellbot/smart-face-api', icon: true}
     ],
     imgStart: false,

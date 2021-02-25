@@ -15,7 +15,7 @@ import {
 const Footer = () => {
   return (
     <FooterContainer>
-      <Fade up>
+      <Fade right>
         <FooterWrap>
           <SocialMedia>
             <SocialMediaWrap>
