@@ -42,6 +42,50 @@ export const ezShop = {
     fade: { right: true, left: false }
 };
 
+export const cogito = {
+    id: 'cogito',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Full Stack App',
+    headline: 'Cogito',
+    description1: 'This is a single page application similar to Quora.com where users may post questions, answer questions, and upvote answers. The front end was built using Vue.js framework and the backend was built with Django REST framework.',
+    description2: 'User authentication was established with Django so users create an account and remain logged in. Users have full CRUD functionality for questions and answers that they have created. Users may like and unlike answers posted by other members of the site.',
+    buttons: [
+        { name: 'See Project', link: 'https://russellbot.pythonanywhere.com/'},
+        { name: 'Github', link: 'https://github.com/russellbot/cogito', icon: true}
+    ],
+    imgStart: false,
+    img: require('../../images/cogito.png').default,
+    alt: 'cogito picture',
+    dark: true,
+    primary: true,
+    darkText: false,
+    fade: { right: false, left: true }
+};
+
+export const rsty = {
+    id: 'rsty',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Full Stack App',
+    headline: 'RSTY Clothing',
+    description1: 'This is an ecommerce website where users may shop for clothing.  The front end was build with React framework with Redux for state management and Redux Saga to make asychronous api calls.',
+    description2: 'The backed uses a simple server built with Node and Express to access the Stripe API and process payments.  The shop data is stored in Google Firestore and user authentication was established using Firebase.',
+    buttons: [
+        { name: 'See Project', link: 'https://rsty-clothing.herokuapp.com/'},
+        { name: 'Github', link: 'https://github.com/russellbot/rsty-clothing', icon: true}
+    ],
+    imgStart: true,
+    img: require('../../images/rsty-clothing.png').default,
+    alt: 'rsty clothing picture',
+    dark: false,
+    primary: false,
+    darkText: true,
+    fade: { right: true, left: false }
+};
+
 export const smartFace = {
     id: 'smartface',
     lightBg: false,
@@ -52,8 +96,8 @@ export const smartFace = {
     description1: 'This web app will find the faces on an image URL and draw boxes around each face in the picture. The app has full sign in and register functionality to build a user profile.',
     description2: 'The front end of this web app was built using the React framework. The server was built using Node and Express. Profiles and login information are stored in a PostgreSQL database and may be updated and changed. JSON Web Tokens and Redis are used for session management. The back end uses the Docker platform for easier development.',
     buttons: [
-        { name: 'See Project', link: 'https://smart-face-react.herokuapp.com/'},
-        { name: 'Frontend', link: 'https://russellbot.github.io/smart-face/', icon: true},
+        { name: 'See Project', link: 'https://russellbot.github.io/smart-face/'},
+        { name: 'Frontend', link: 'https://github.com/russellbot/smart-face', icon: true},
         { name: 'Backend', link: 'https://github.com/russellbot/smart-face-api', icon: true}
     ],
     imgStart: false,

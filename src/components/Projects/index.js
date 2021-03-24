@@ -1,8 +1,8 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Icon1 from "../../images/ezshop-home.png";
-import Icon2 from "../../images/smartface.PNG";
-import Icon3 from "../../images/nasapix.PNG";
+import Icon2 from "../../images/cogito.png";
+import Icon3 from "../../images/rsty-clothing.png";
 import { Button } from "../ButtonElement";
 import {
   ProjectsContainer,
@@ -28,15 +28,15 @@ const Projects = () => {
             <ProjectsH2>Ez-Shop</ProjectsH2>
             <ProjectsP>MERN stack App</ProjectsP>
           </ProjectsCard>
-          <ProjectsCard to="/smartface">
+          <ProjectsCard to="/cogito">
             <ProjectsIcon src={Icon2} />
-            <ProjectsH2>Smart-Face</ProjectsH2>
+            <ProjectsH2>Cogito</ProjectsH2>
             <ProjectsP>Full Stack App</ProjectsP>
           </ProjectsCard>
-          <ProjectsCard to="/nasapix">
+          <ProjectsCard to="/rsty">
             <ProjectsIcon src={Icon3} />
-            <ProjectsH2>Nasa-Pix</ProjectsH2>
-            <ProjectsP>Front End App</ProjectsP>
+            <ProjectsH2>RSTY Clothing</ProjectsH2>
+            <ProjectsP>Full Stack App</ProjectsP>
           </ProjectsCard>
         </ProjectsWrapper>
         <ProjectsBtnWrap>

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import InfoSection from "../components/InfoSection";
 import {
   ezShop,
+  cogito,
+  rsty,
   smartFace,
   nasaPix,
   paintClone,
@@ -16,10 +18,10 @@ const WorkPage = ({ section }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    if (section === "smartface") {
-      scroller.scrollTo("smartface");
-    } else if (section === "nasapix") {
-      scroller.scrollTo("nasapix");
+    if (section === "cogito") {
+      scroller.scrollTo("cogito");
+    } else if (section === "rsty") {
+      scroller.scrollTo("rsty");
     }
     return () => {
       setIsOpen(false);
@@ -35,12 +37,14 @@ const WorkPage = ({ section }) => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <InfoSection {...ezShop} />
-      <Element name="smartface">
-        <InfoSection {...smartFace} />
+      <Element name="cogito">
+        <InfoSection {...cogito} />
       </Element>
-      <Element name="nasapix">
-        <InfoSection {...nasaPix} />
+      <Element name="rsty">
+        <InfoSection {...rsty} />
       </Element>
+      <InfoSection {...smartFace} />
+      <InfoSection {...nasaPix} />
       <InfoSection {...paintClone} />
       <InfoSection {...starWars} />
       <Footer />

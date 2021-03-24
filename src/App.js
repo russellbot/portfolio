@@ -17,11 +17,11 @@ function App() {
             <Route path="/work" exact>
               <WorkPage />
             </Route>
-            <Route path="/smartface" exact>
-              <WorkPage section={"smartface"} />
+            <Route path="/cogito" exact>
+              <WorkPage section={"cogito"} />
             </Route>
-            <Route path="/nasapix" exact>
-              <WorkPage section={"nasapix"} />
+            <Route path="/rsty" exact>
+              <WorkPage section={"rsty"} />
             </Route>
             <Route path="/about" exact>
               <Home section={"about"} />

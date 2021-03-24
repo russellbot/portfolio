@@ -27,13 +27,13 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <Fade left>
+        <Fade right>
           <HeroH1>Russell Hart</HeroH1>
         </Fade>
         <Fade right>
           <HeroP>Web Developer / Designer</HeroP>
         </Fade>
-        <Fade up>
+        <Fade right>
           <HeroBtnWrapper>
             <Button
               to="/contact"

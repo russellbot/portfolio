@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinkRouter to="/work">Work</NavLinkRouter>
+              <NavLinkRouter to="/work">Projects</NavLinkRouter>
             </NavItem>
             <NavItem>
               <NavLinkRouter to="/about">About</NavLinkRouter>
